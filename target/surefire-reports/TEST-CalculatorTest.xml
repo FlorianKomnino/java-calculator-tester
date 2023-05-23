@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.167" tests="20" errors="0" skipped="9" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester\target\test-classes;C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester\target\classes;C:\Users\flori\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0-M1\junit-jupiter-engine-5.10.0-M1.jar;C:\Users\flori\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-M1\junit-platform-engine-1.10.0-M1.jar;C:\Users\flori\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\flori\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-M1\junit-platform-commons-1.10.0-M1.jar;C:\Users\flori\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0-M1\junit-jupiter-api-5.10.0-M1.jar;C:\Users\flori\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="C:\Users\flori\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\flori\AppData\Local\Temp\surefire12575201698994038657\surefirebooter938244164079961789.jar C:\Users\flori\AppData\Local\Temp\surefire12575201698994038657 2023-05-23T14-48-52_763-jvmRun1 surefire8638403944757303424tmp surefire_06253127316603076753tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester\target\test-classes;C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester\target\classes;C:\Users\flori\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0-M1\junit-jupiter-engine-5.10.0-M1.jar;C:\Users\flori\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-M1\junit-platform-engine-1.10.0-M1.jar;C:\Users\flori\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\flori\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-M1\junit-platform-commons-1.10.0-M1.jar;C:\Users\flori\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0-M1\junit-jupiter-api-5.10.0-M1.jar;C:\Users\flori\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\flori"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Users\flori\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\flori\AppData\Local\Temp\surefire12575201698994038657\surefirebooter938244164079961789.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="flori"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="C:\Users\flori\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\flori\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\flori\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/flori/Downloads/eclipse-jee-2023-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/flori/Downloads/eclipse-jee-2023-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Program Files (x86)\dotnet\;C:\MAMP\bin\php\php8.1.0;C:\ProgramData\ComposerSetup\bin;C:\Users\flori\AppData\Local\Microsoft\WindowsApps;C:\Users\flori\AppData\Local\atom\bin;C:\Users\flori\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\flori\AppData\Roaming\npm;C:\Users\flori\AppData\Roaming\Composer\vendor\bin;C:\Users\flori\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="addTest[1]" classname="CalculatorTest" time="0.039"/>
+  <testcase name="addTest[2]" classname="CalculatorTest" time="0.002"/>
+  <testcase name="addTest[3]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[4]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[5]" classname="CalculatorTest" time="0"/>
+  <testcase name="addTest[6]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[7]" classname="CalculatorTest" time="0"/>
+  <testcase name="addTest[8]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[9]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[10]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="getDivExcTest[1]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[2]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[3]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[4]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[5]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[6]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[7]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[8]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[9]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+</skipped>
+  </testcase>
+  <testcase name="getDivExcTest[10]" classname="CalculatorTest" time="0.006">
+    <failure message="Deve sollevare eccezione ==&gt; Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:36)
+</failure>
+  </testcase>
+</testsuite>

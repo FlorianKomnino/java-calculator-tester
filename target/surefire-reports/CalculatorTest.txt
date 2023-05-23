@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 0.167 s <<< FAILURE! - in CalculatorTest
+getDivExcTest[10]  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getDivExcTest(CalculatorTest.java:36)
+
