@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.167" tests="20" errors="0" skipped="9" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.187" tests="40" errors="0" skipped="18" failures="12">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Users\flori\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\flori\AppData\Local\Temp\surefire12575201698994038657\surefirebooter938244164079961789.jar C:\Users\flori\AppData\Local\Temp\surefire12575201698994038657 2023-05-23T14-48-52_763-jvmRun1 surefire8638403944757303424tmp surefire_06253127316603076753tmp"/>
+    <property name="sun.java.command" value="C:\Users\flori\AppData\Local\Temp\surefire3000380652894415045\surefirebooter4807330358988197122.jar C:\Users\flori\AppData\Local\Temp\surefire3000380652894415045 2023-05-23T15-07-54_309-jvmRun1 surefire18046587386685304921tmp surefire_09618794033128118168tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester\target\test-classes;C:\CODING\Boolean-Experis\JAVA projects\org.java.testing-exercise.java-calculator-tester\target\classes;C:\Users\flori\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0-M1\junit-jupiter-engine-5.10.0-M1.jar;C:\Users\flori\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-M1\junit-platform-engine-1.10.0-M1.jar;C:\Users\flori\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\flori\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-M1\junit-platform-commons-1.10.0-M1.jar;C:\Users\flori\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0-M1\junit-jupiter-api-5.10.0-M1.jar;C:\Users\flori\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\flori\AppData\Local\Temp\surefire12575201698994038657\surefirebooter938244164079961789.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\flori\AppData\Local\Temp\surefire3000380652894415045\surefirebooter4807330358988197122.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+10"/>
@@ -58,64 +58,164 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="addTest[1]" classname="CalculatorTest" time="0.039"/>
-  <testcase name="addTest[2]" classname="CalculatorTest" time="0.002"/>
+  <testcase name="getSubtractExcTest[1]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:64)
+</skipped>
+  </testcase>
+  <testcase name="getSubtractExcTest[2]" classname="CalculatorTest" time="0.008">
+    <failure message="Deve sollevare eccezione ==&gt; Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+</failure>
+  </testcase>
+  <testcase name="getSubtractExcTest[3]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:64)
+</skipped>
+  </testcase>
+  <testcase name="getSubtractExcTest[4]" classname="CalculatorTest" time="0.002">
+    <failure message="Deve sollevare eccezione ==&gt; Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+</failure>
+  </testcase>
+  <testcase name="getSubtractExcTest[5]" classname="CalculatorTest" time="0.002">
+    <failure message="Deve sollevare eccezione ==&gt; Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+</failure>
+  </testcase>
+  <testcase name="getSubtractExcTest[6]" classname="CalculatorTest" time="0.002">
+    <failure message="Deve sollevare eccezione ==&gt; Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+</failure>
+  </testcase>
+  <testcase name="getSubtractExcTest[7]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:64)
+</skipped>
+  </testcase>
+  <testcase name="getSubtractExcTest[8]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:64)
+</skipped>
+  </testcase>
+  <testcase name="getSubtractExcTest[9]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:64)
+</skipped>
+  </testcase>
+  <testcase name="getSubtractExcTest[10]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:64)
+</skipped>
+  </testcase>
+  <testcase name="addTest[1]" classname="CalculatorTest" time="0.003"/>
+  <testcase name="addTest[2]" classname="CalculatorTest" time="0.001"/>
   <testcase name="addTest[3]" classname="CalculatorTest" time="0.001"/>
   <testcase name="addTest[4]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="addTest[5]" classname="CalculatorTest" time="0"/>
+  <testcase name="addTest[5]" classname="CalculatorTest" time="0.001"/>
   <testcase name="addTest[6]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="addTest[7]" classname="CalculatorTest" time="0"/>
-  <testcase name="addTest[8]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[7]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addTest[8]" classname="CalculatorTest" time="0"/>
   <testcase name="addTest[9]" classname="CalculatorTest" time="0.001"/>
   <testcase name="addTest[10]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="getDivExcTest[1]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[1]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[2]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[2]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[3]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[3]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[4]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[4]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[5]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[5]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[6]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[6]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[7]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[7]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[8]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[8]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[9]" classname="CalculatorTest" time="0">
+  <testcase name="getAddExcTest[9]" classname="CalculatorTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:34)
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
 </skipped>
   </testcase>
-  <testcase name="getDivExcTest[10]" classname="CalculatorTest" time="0.006">
-    <failure message="Deve sollevare eccezione ==&gt; Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:36)
-</failure>
+  <testcase name="getAddExcTest[10]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.getAddExcTest(CalculatorTest.java:41)
+</skipped>
+  </testcase>
+  <testcase name="subtractTest[1]" classname="CalculatorTest" time="0.003">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;16.430407&gt; but was: &lt;16.121847&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <16.430407> but was: <16.121847>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[2]" classname="CalculatorTest" time="0.001">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;10.772959&gt; but was: &lt;0.25895023&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <10.772959> but was: <0.25895023>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[3]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.subtractTest(CalculatorTest.java:52)
+</skipped>
+  </testcase>
+  <testcase name="subtractTest[4]" classname="CalculatorTest" time="0.002">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;13.410711&gt; but was: &lt;4.1484547&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <13.410711> but was: <4.1484547>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[5]" classname="CalculatorTest" time="0.001">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;13.639957&gt; but was: &lt;9.370319&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <13.639957> but was: <9.370319>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[6]" classname="CalculatorTest" time="0.001">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;14.204086&gt; but was: &lt;2.5475845&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <14.204086> but was: <2.5475845>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[7]" classname="CalculatorTest" time="0.002">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;17.787962&gt; but was: &lt;1.4704208&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <17.787962> but was: <1.4704208>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[8]" classname="CalculatorTest" time="0.002">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;16.919353&gt; but was: &lt;2.289443&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <16.919353> but was: <2.289443>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[9]" classname="CalculatorTest" time="0.003">
+    <failure message="Somma tra numeri float ==&gt; expected: &lt;7.6857934&gt; but was: &lt;8.643975&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <7.6857934> but was: <8.643975>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+]]></failure>
+  </testcase>
+  <testcase name="subtractTest[10]" classname="CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at CalculatorTest.subtractTest(CalculatorTest.java:52)
+</skipped>
   </testcase>
 </testsuite>

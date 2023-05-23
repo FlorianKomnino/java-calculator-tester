@@ -1,8 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 0.167 s <<< FAILURE! - in CalculatorTest
-getDivExcTest[10]  Time elapsed: 0.006 s  <<< FAILURE!
+Tests run: 40, Failures: 12, Errors: 0, Skipped: 18, Time elapsed: 0.187 s <<< FAILURE! - in CalculatorTest
+getSubtractExcTest[2]  Time elapsed: 0.008 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
-	at CalculatorTest.getDivExcTest(CalculatorTest.java:36)
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+
+getSubtractExcTest[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+
+getSubtractExcTest[5]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+
+getSubtractExcTest[6]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Deve sollevare eccezione ==> Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at CalculatorTest.getSubtractExcTest(CalculatorTest.java:66)
+
+subtractTest[1]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <16.430407> but was: <16.121847>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <10.772959> but was: <0.25895023>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <13.410711> but was: <4.1484547>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[5]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <13.639957> but was: <9.370319>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <14.204086> but was: <2.5475845>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[7]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <17.787962> but was: <1.4704208>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[8]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <16.919353> but was: <2.289443>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
+
+subtractTest[9]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Somma tra numeri float ==> expected: <7.6857934> but was: <8.643975>
+	at CalculatorTest.subtractTest(CalculatorTest.java:58)
 
